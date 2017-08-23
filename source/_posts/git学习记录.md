@@ -1,5 +1,5 @@
 ---
-title: Git学习记录
+title: git学习记录
 date: 2017-08-23 10:01:25
 tags:
 ---
