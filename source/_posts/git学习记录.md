@@ -9,6 +9,8 @@ tags:
 ##### 最近学习了`Git`,在此整理一下知识点。
 > 此文章的环境为`windows`
 
+<!--more-->
+
 ### 安装
   首先需要从[Git官网](https://git-scm.com/downloads)下载并安装，安装过程就省略了，无脑下一步就是。
 
