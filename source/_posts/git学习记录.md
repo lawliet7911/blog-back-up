@@ -1,5 +1,5 @@
 ---
-title: git学习记录
+title: Git学习记录-安装，创建版本库
 date: 2017-08-23 10:01:25
 tags:
 ---
@@ -65,5 +65,14 @@ tags:
 
   ```
   此时文件添加完毕执行commit提交
+  ```code
+    $ git commit -m "提交日志"
+    [master (root-commit) 5d6241e] test
+    2 files changed, 0 insertions(+), 0 deletions(-)
+    create mode 100644 index.html
+    create mode 100644 readme.md
 
+  ```
+  > 注意：commit的时候不添加-m参数，会进入编辑模式，需要编辑添加`commit message` 此时的操作为先按`ESC`，编辑窗口出现光标时输入需要添加的日志信息,然后按`i`,输入`wq`，然后回车进行提交。
   
+  至此`Git`的安装和基本的创建版本库已经完成，下一篇来写一写版本控制方面的问题。
